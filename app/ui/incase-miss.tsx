@@ -20,24 +20,24 @@ export default function InCaseMiss() {
             <p className="my-3 font-bold text-xl text-white p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
           </div>
         </div>
-        <div className="md:col-span-6 co Lorem ipsum dolor sit amet consectetur-span-12">
+        <div className="md:col-span-6 col-span-12">
           <div>
-            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block w-3/4 px-2 pb-4 text-justify text-white">
+            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi 
             </Link>
-            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block w-3/4 px-2 pb-4 text-justify text-white">
+            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi 
             </Link>
-            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block w-3/4 px-2 pb-4 text-justify text-white">
+            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi 
             </Link>
-            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block w-3/4 px-2 pb-4 text-justify text-white">
+            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi 
             </Link>
-            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block w-3/4 px-2 pb-4 text-justify text-white">
+            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi 
             </Link>
-            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block w-3/4 px-2 pb-4 text-justify text-white">
+            <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi 
             </Link>
 

@@ -10,11 +10,16 @@ export default function NavBar() {
 
   return (
     <nav className="bg-black">
-      <div className="max-w-screen-xl p-2 mx-auto">
+      <div className="max-w-screen-xl p-3 mx-auto">
         <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-3 md:hidden">
+            <FaBars className="w-5 h-5" color="white" />
+            <span className="text-white">MyNews Company</span>
+
+          </div>
           <div className="items-center space-x-3 md:flex hidden">
-            <FaBars className="w-5 h-5"  color="white"/>
-            <Link href={`/`} className="text-white hover:bg-red-700 hover:text-white p-2">MyNews Compony</Link>
+            <FaBars className="w-5 h-5" color="white" />
+            <Link href={`/`} className="text-white hover:bg-red-700 hover:text-white p-2">MyNews Company</Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">World</Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">Politics</Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">Business</Link>
@@ -60,27 +65,6 @@ export default function NavBar() {
             </div>
           </div>
 
-          <div className="md:hidden items-center space-x-3 flex">
-            <Link href={`/#`} className="flex items-center space-x-1 hover:bg-red-700 hover:text-white p-2">
-              <FaRegCirclePlay className="w-5 h-5" color="white" />
-              
-            </Link>
-            <Link href={`/#`} className="flex items-center space-x-1 hover:bg-red-700 hover:text-white p-2">
-              <LuHeadphones className="w-5 h-5" color="white" />
-              
-            </Link>
-            <Link href={`/#`} className="flex items-center space-x-1 hover:bg-red-700 hover:text-white p-2">
-              <span className="text-white">Live Tv</span>
-            </Link>
-            <div className="flex items-center space-x-3">
-              <IoSearch className="w-5 h-5" color="white" />
-            </div>
-            <div className="flex items-center space-x-3">
-              <Link href={`/#`}>
-                <button className="border-[1.5px] border-gray-200 rounded-lg py-1 px-2 text-white">Sign In</button>
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
     </nav>

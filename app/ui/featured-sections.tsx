@@ -2,200 +2,48 @@
 
 import Link from "next/link"
 import Image from "next/image"
+import GlobalBusinessLarge from "./featured-sections/global-business/large"
+import GlobalBusinessSmall from "./featured-sections/global-business/small"
+import HealthLarge from "./featured-sections/health-and-wellness/large"
+import HealthSmall from "./featured-sections/health-and-wellness/small"
+import PoliticsLarge from "./featured-sections/politics/large"
+import PoliticsSamll from "./featured-sections/politics/small"
+import SpaceLarge from "./featured-sections/space/large"
+import SpaceSmall from "./featured-sections/space/small"
+import SportLarge from "./featured-sections/sports/large"
+import SportSmall from "./featured-sections/sports/small"
+import StyleLarge from "./featured-sections/style/large"
+import StyleSmall from "./featured-sections/style/small"
+import TechLarge from "./featured-sections/tech/large"
+import TechSmall from "./featured-sections/tech/small"
+import TravelLarge from "./featured-sections/travel/large"
+import TravelSmall from "./featured-sections/travel/small"
 export function FeaturedSections() {
   return (
-    <div className="grid grid-cols-3 gap-4">
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Space and Science</p>
-        <Image
-          src={`/space.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+    <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+      <GlobalBusinessLarge/>
+      <GlobalBusinessSmall/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Travel</p>
-        <Image
-          src={`/travel.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <HealthLarge/>
+      <HealthSmall/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Global Business</p>
-        <Image
-          src={`/bus.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <PoliticsLarge/>
+      <PoliticsSamll/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Style</p>
-        <Image
-          src={`/style.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <SpaceLarge/>
+      <SpaceSmall/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Sports</p>
-        <Image
-          src={`/sport.jpeg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <SportLarge/>
+      <SportSmall/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Politics</p>
-        <Image
-          src={`/pol.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <StyleLarge/>
+      <StyleSmall/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Health and well-ness</p>
-        <Image
-          src={`/hel.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <TechLarge/>
+      <TechSmall/>
 
-      <div className="p-2">
-        <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Tech</p>
-        <Image
-          src={`/tech.jpg`}
-          width={0}
-          height={0}
-          sizes="100vh"
-          alt="My news app developed by Amanuel Ferede"
-          className="w-full"
-        />
-        <div>
-          <p className="my-3 font-bold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </p>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-          <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit officiis adipisci soluta
-          </Link>
-        </div>
-      </div>
+      <TravelLarge/>
+      <TravelSmall/>
     </div>
   )
 }
