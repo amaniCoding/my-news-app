@@ -21,7 +21,7 @@ export default function TravelSmall() {
       {
         Array.from(Array(3).keys()).map((_, i) => {
           return (
-            <div className="grid grid-cols-12 my-3 gap-4 border-b-[1.7px] border-b-gray-300 pb-4">
+            <div className="grid grid-cols-12 my-3 gap-4 border-b-[1.7px] border-b-gray-300 pb-4" key={i}>
               <div className="col-span-5" key={i}>
                 <Image
                   src={`/travel/${i+1}.jpg`}

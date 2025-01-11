@@ -2,7 +2,6 @@
 import Image from "next/image"
 import LatestNews from "./latest-news"
 import Link from "next/link"
-import TopStories from "./featured-top-stories"
 import { FeaturedSections } from "./featured-sections"
 import InCaseMiss from "./incase-miss"
 import FeaturedAndTopStories from "./featured-top-stories"

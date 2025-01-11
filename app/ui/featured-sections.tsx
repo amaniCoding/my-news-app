@@ -1,7 +1,5 @@
 'use client'
 
-import Link from "next/link"
-import Image from "next/image"
 import GlobalBusinessLarge from "./featured-sections/global-business/large"
 import GlobalBusinessSmall from "./featured-sections/global-business/small"
 import HealthLarge from "./featured-sections/health-and-wellness/large"

@@ -27,7 +27,7 @@ export default function Featured() {
               {
                 Array.from(Array(2).keys()).map((_, i) => {
                   return (
-                    <div className="grid grid-cols-12 gap-4 my-3 border-b-[1.7px] pb-3 border-b-gray-300">
+                    <div className="grid grid-cols-12 gap-4 my-3 border-b-[1.7px] pb-3 border-b-gray-300" key={i}>
                       <div className="md:col-span-4 col-span-12">
                         <Image
                           src={`/latest/${i + 1}.jpg`}
