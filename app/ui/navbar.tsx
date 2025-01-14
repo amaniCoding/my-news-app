@@ -33,12 +33,12 @@ export default function NavBar() {
 
               </div>
 
-              <div className={`w-40 absolute z-10 shadow-md  hidden group-hover:block bg-white`}>
-                <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Travel</Link>
+              <div className={`w-40 absolute z-10 shadow-md  hidden group-hover:block bg-white rounded-md`}>
+                <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 rounded-t-md">Travel</Link>
                 <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Sports</Link>
                 <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Science</Link>
                 <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Climate</Link>
-                <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Weather</Link>
+                <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 rounded-b-md">Weather</Link>
               </div>
             </div>
           </div>

@@ -28,7 +28,7 @@ export default function GlobalBusinessSmall() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                  className="w-full"
+                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="col-span-7">
