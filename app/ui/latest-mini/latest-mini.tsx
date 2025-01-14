@@ -7,7 +7,7 @@ export default function LatestMiniNews() {
       {
         Array.from(Array(6).keys()).map((_, i) => {
           return (
-            <div>
+            <div key={i}>
               <Image
                 src={`/latest/${i+1}.jpg`}
                 width={0}

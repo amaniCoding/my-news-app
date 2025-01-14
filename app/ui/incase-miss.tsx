@@ -50,7 +50,7 @@ export default function InCaseMiss() {
         {
           Array.from(Array(6).keys()).map((_, i) => {
             return (
-              <div className="p-1">
+              <div className="p-1" key={i}>
                 <div>
                   <Image
                     src={`/latest/${i + 1}.jpg`}
