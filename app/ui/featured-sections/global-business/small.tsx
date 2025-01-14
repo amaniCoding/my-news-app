@@ -14,7 +14,7 @@ export default function GlobalBusinessSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="text-xl font-bold hover:underline">Ex error eaque id minima explicabo quod suscipit repudiandae quas est obcaecati modi asperiores omnis voluptatem quam neque, accusamus a, quia quo!
+       <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Ex error eaque id minima explicabo quod suscipit repudiandae quas est obcaecati modi asperiores omnis voluptatem quam neque, accusamus a, quia quo!
         </Link>
       </div>
       {

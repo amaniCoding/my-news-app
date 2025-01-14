@@ -17,7 +17,7 @@ export default function LatestMiniNews() {
                 className="w-full"
               />
               <div className="hover:underline cursor-pointer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
           )

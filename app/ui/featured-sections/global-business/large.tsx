@@ -15,7 +15,7 @@ export default function GlobalBusinessLarge() {
         className="w-full"
       />
       <div>
-        <p className="my-3 font-bold text-xl">Nesciunt quas obcaecati, commodi minus id iste pariatur numquam laboriosam inventore saepe. </p>
+        <p className="my-3 md:font-bold md:text-xl">Nesciunt quas obcaecati, commodi minus id iste pariatur numquam laboriosam inventore saepe. </p>
         {
           Array.from(Array(3).keys()).map((_, i) => {
             return (

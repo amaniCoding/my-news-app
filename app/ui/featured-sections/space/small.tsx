@@ -14,7 +14,7 @@ export default function SpaceSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="text-xl font-bold hover:underline"> Repellendus itaque eveniet aut perspiciatis soluta deserunt optio sit nihil laboriosam fugit fuga assumenda excepturi maxime qui culpa, necessitatibus numquam earum. Odit.
+        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline"> Repellendus itaque eveniet aut perspiciatis soluta deserunt optio sit nihil laboriosam fugit fuga assumenda excepturi maxime qui culpa, necessitatibus numquam earum. Odit.
         </Link>
       </div>
       {

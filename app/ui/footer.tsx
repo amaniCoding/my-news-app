@@ -42,28 +42,28 @@ export default function Footer() {
           <div className="">
             <p className="text-xl font-bold mb-3 text-white">Useful Links</p>
             <div className="flex flex-col space-y-3">
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Home</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white"> About us</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Services</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Home</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white"> Terms of service</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Privacy policy</span>
               </div>
             </div>
@@ -72,24 +72,24 @@ export default function Footer() {
             
             <p className="text-xl font-bold mb-3 text-white">Our Services</p>
             <div className="flex flex-col space-y-3">
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Web Design</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Web Development</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Product Management</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white">Marketing</span>
               </div>
-              <div className="flex space-x-3">
-                <MdKeyboardArrowRight className="w-4 h-4" color="white" />
+              <div className="flex space-x-1 items-center">
+                <MdKeyboardArrowRight className="w-5 h-5" color="white" />
                 <span className="w-full text-white"> Graphic Design</span>
               </div>
             </div>

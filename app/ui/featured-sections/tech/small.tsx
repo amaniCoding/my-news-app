@@ -14,7 +14,7 @@ export default function TechSmall() {
           alt="My news app developed by Amanuel Ferede"
            className="w-full h-full object-cover"
         />
-        <Link href={`/`} className="text-xl font-bold hover:underline">
+        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis architecto voluptate nam ad, explicabo ab, animi repudiandae nemo assumenda sunt ea quia maiores accusantium atque dolor corporis.
         </Link>
       </div>

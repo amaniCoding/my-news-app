@@ -46,7 +46,7 @@ export default function InCaseMiss() {
         </div>
       </div>
 
-      <div className="md:hidden grid grid-cols-1 gap-4">
+      <div className="md:hidden grid grid-cols-2 gap-4">
         {
           Array.from(Array(6).keys()).map((_, i) => {
             return (

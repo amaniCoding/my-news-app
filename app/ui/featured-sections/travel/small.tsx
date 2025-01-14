@@ -14,7 +14,7 @@ export default function TravelSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="text-xl font-bold hover:underline">
+        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ducimus, aliquid a illo, repudiandae eveniet quos blanditiis voluptate rem ad pariatur quod nisi minima soluta! Nisi deserunt culpa temporibus ea!
         </Link>
       </div>

@@ -14,7 +14,7 @@ export default function PoliticsSamll() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="text-xl font-bold hover:underline">Eveniet perferendis consequuntur provident vero dolore, unde earum quia, omnis, quam voluptatem ab quos iure. Amet corrupti illo ullam tenetur mollitia dolor.
+       <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Eveniet perferendis consequuntur provident vero dolore, unde earum quia, omnis, quam voluptatem ab quos iure. Amet corrupti illo ullam tenetur mollitia dolor.
         </Link>
       </div>
       {
