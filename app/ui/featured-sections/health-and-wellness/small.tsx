@@ -14,7 +14,7 @@ export default function HealthSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Hic aperiam odio harum consequatur molestiae sit laborum ex, voluptatum vero consequuntur a libero similique et corporis, exercitationem eius maiores molestias corrupti!
+        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Hic aperiam odio harum consequatur molestiae sit laborum ex.
         </Link>
       </div>
       {
@@ -28,11 +28,11 @@ export default function HealthSmall() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                   className="w-full h-full object-cover"
+                   className="w-full"
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline">Saepe maiores sit, mollitia perferendis odio expedita necessitatibus corrupti, incidunt dolores magni at iure error temporibus odit unde vero atque voluptatem cupiditate.
+                <Link href={`/`} className="hover:underline">Saepe maiores sit, mollitia perferendis odio expedita necessitatibus.
                 </Link>
 
               </div>

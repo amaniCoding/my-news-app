@@ -15,7 +15,7 @@ export default function TravelSmall() {
           className="w-full"
         />
         <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ducimus, aliquid a illo, repudiandae eveniet quos blanditiis voluptate rem ad pariatur quod nisi minima soluta! Nisi deserunt culpa temporibus ea!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ducimus, aliquid a illo.
         </Link>
       </div>
       {
@@ -29,11 +29,11 @@ export default function TravelSmall() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                   className="w-full h-full object-cover"
+                   className="w-full"
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline">Ea debitis in fuga doloribus quam, obcaecati ipsam voluptate, dolor vel expedita voluptas numquam suscipit repudiandae perferendis.
+                <Link href={`/`} className="hover:underline">Ea debitis in fuga doloribus quam, obcaecati ipsam voluptate.
                 </Link>
 
               </div>

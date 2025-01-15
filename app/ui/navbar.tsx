@@ -33,7 +33,7 @@ export default function NavBar() {
 
               </div>
 
-              <div className={`w-40 absolute z-10 shadow-md  hidden group-hover:block bg-white rounded-md`}>
+              <div className={`w-full absolute z-10 shadow-md  hidden group-hover:block bg-white rounded-md`}>
                 <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 rounded-t-md">Travel</Link>
                 <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Sports</Link>
                 <Link href={`/#`} className="text-black block hover:bg-gray-200 p-2 ">Science</Link>

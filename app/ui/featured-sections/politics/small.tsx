@@ -14,7 +14,7 @@ export default function PoliticsSamll() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-       <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Eveniet perferendis consequuntur provident vero dolore, unde earum quia, omnis, quam voluptatem ab quos iure. Amet corrupti illo ullam tenetur mollitia dolor.
+       <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Eveniet perferendis consequuntur provident vero dolore.
         </Link>
       </div>
       {
@@ -28,11 +28,11 @@ export default function PoliticsSamll() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                  className="w-full h-full object-cover"
+                  className="w-full"
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline"> Deserunt consequuntur ipsa illo corrupti, soluta earum laudantium necessitatibus pariatur nisi assumenda? Iure reprehenderit praesentium pariatur id cumque fugit modi accusamus a.
+                <Link href={`/`} className="hover:underline"> Deserunt consequuntur ipsa illo corrupti, soluta earum laudantium necessitatibus..
                 </Link>
 
               </div>

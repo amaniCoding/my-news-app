@@ -62,7 +62,7 @@ export default function InCaseMiss() {
                   />
                 </div>
                 <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 </Link>
               </div>
             )

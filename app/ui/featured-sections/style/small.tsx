@@ -14,7 +14,7 @@ export default function StyleSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Expedita, sit at. Quidem illum unde voluptatum asperiores officia aut hic, corporis dolorum quod, ratione odit nisi necessitatibus reiciendis aliquid, saepe tempore.
+        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Expedita, sit at. Quidem illum unde voluptatum asperiores officia aut hic, corporis dolorum quod.
         </Link>
       </div>
       {
@@ -28,11 +28,11 @@ export default function StyleSmall() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                  className="w-full h-full object-cover"
+                  className="w-full"
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline">Unde a ducimus consequuntur quisquam? Adipisci pariatur, eligendi autem praesentium id, perferendis voluptates possimus amet iusto at dolore, sequi numquam facilis fugiat.
+                <Link href={`/`} className="hover:underline">Unde a ducimus consequuntur quisquam? Adipisci pariatur, eligendi autem praesentium id.
                 </Link>
 
               </div>

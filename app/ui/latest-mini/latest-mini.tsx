@@ -5,7 +5,7 @@ export default function LatestMiniNews() {
     <div className="grid md:grid-cols-3 grid-cols-2 gap-6">
 
       {
-        Array.from(Array(6).keys()).map((_, i) => {
+        Array.from(Array(4).keys()).map((_, i) => {
           return (
             <div key={i}>
               <Image

@@ -15,7 +15,7 @@ export default function TechSmall() {
            className="w-full h-full object-cover"
         />
         <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis architecto voluptate nam ad, explicabo ab, animi repudiandae nemo assumenda sunt ea quia maiores accusantium atque dolor corporis.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis architecto.
         </Link>
       </div>
       {
@@ -33,7 +33,7 @@ export default function TechSmall() {
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline"> Aspernatur nulla, dignissimos quis expedita molestias quasi fugiat dolorum minima harum temporibus dolor voluptas veniam vel tenetur dicta labore aliquid iste. Ex?
+                <Link href={`/`} className="hover:underline"> Aspernatur nulla, dignissimos quis expedita molestias quasi fugiat dolorum.
                 </Link>
 
               </div>

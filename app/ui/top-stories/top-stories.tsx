@@ -22,7 +22,7 @@ export default function TopStories() {
                   alt="My news app developed by Amanuel Ferede"
                   className="w-full"
                 />
-                <Link href={`/`} className="my-3 font-bold text-xl hover:underline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum labore possimus repudiandae enim maiores culpa quia? </Link>
+                <Link href={`/`} className="my-3 font-bold text-xl hover:underline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </Link>
 
                 <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-300 block p-2 hover:underline">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

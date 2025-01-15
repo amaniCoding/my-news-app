@@ -7,7 +7,7 @@ export default function GlobalBusinessLarge() {
     <div className="md:block hidden">
       <p className="font-bold text-lg my-3 border-l-4 border-l-black px-3">Global Business</p>
       <Image
-        src={`/space.jpg`}
+        src={`/business/wall.jpg`}
         width={0}
         height={0}
         sizes="100vh"

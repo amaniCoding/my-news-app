@@ -14,7 +14,7 @@ export default function SportSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-       <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Quas corporis earum, sapiente ipsum necessitatibus nisi assumenda porro culpa eum, quia atque minus ullam cum reiciendis adipisci veritatis, omnis similique dolorem?
+       <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline">Quas corporis earum, sapiente ipsum necessitatibus nisi assumenda porro culpa eum.
         </Link>
       </div>
       {
@@ -28,11 +28,11 @@ export default function SportSmall() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                   className="w-full h-full object-cover"
+                   className="w-full"
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline"> Nesciunt quos eveniet expedita hic in esse, reprehenderit dolor, accusantium maxime corrupti deserunt eligendi voluptas adipisci facilis velit officiis cupiditate quis. Quas.
+                <Link href={`/`} className="hover:underline"> Nesciunt quos eveniet expedita hic in esse, reprehenderit dolor.
                 </Link>
 
               </div>

@@ -35,11 +35,11 @@ export default function Featured() {
                           height={0}
                           sizes="100vh"
                           alt="My news app developed by Amanuel Ferede"
-                          className="w-full h-full object-cover"
+                          className="w-full"
                         />
                       </div>
                       <div className="col-span-7">
-                        <Link href={`/#`} className="md:font-bold md:text-xl text-lg hover:underline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At perspiciatis fugit debitis nam?</Link>
+                        <Link href={`/#`} className="md:font-bold md:text-xl text-lg hover:underline">Lorem ipsum dolor sit amet consectetur.</Link>
                       </div>
                     </div>
                   )

@@ -14,7 +14,7 @@ export default function SpaceSmall() {
           alt="My news app developed by Amanuel Ferede"
           className="w-full"
         />
-        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline"> Repellendus itaque eveniet aut perspiciatis soluta deserunt optio sit nihil laboriosam fugit fuga assumenda excepturi maxime qui culpa, necessitatibus numquam earum. Odit.
+        <Link href={`/`} className="md:text-xl font-semibold text-lg md:font-bold hover:underline"> Repellendus itaque eveniet aut perspiciatis soluta deserunt optio.
         </Link>
       </div>
       {
@@ -28,11 +28,11 @@ export default function SpaceSmall() {
                   height={0}
                   sizes="100vh"
                   alt="My news app developed by Amanuel Ferede"
-                  className="w-full h-full object-cover"
+                  className="w-full"
                 />
               </div>
               <div className="col-span-7">
-                <Link href={`/`} className="hover:underline">Aspernatur libero explicabo rerum quas amet tenetur porro harum aperiam voluptatem, impedit, magni quia inventore iste aliquam dolore omnis qui, asperiores odio?
+                <Link href={`/`} className="hover:underline">Aspernatur libero explicabo rerum quas amet tenetur porro harum aperiam.
                 </Link>
 
               </div>
