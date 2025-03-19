@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-          <p className="text-xl font-bold mb-3">Our Newsletter</p>
+          <p className="text-xl font-bold mb-3 text-white">Our Newsletter</p>
             <div className="felx flex-col space-y-3">
             <p className="text-white">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <div className="flex items-center space-x-0">

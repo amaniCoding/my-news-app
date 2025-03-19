@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image"
-import LatestNews from "./latest-news"
+
 export default function News() {
   return (
     <section>
@@ -57,7 +57,7 @@ export default function News() {
           </div>
           <div className="md:col-span-4 col-span-12">
           <p className="text-lg my-3">Catch up on today’s global news</p>
-            <LatestNews/>
+            <News/>
           </div>
         </div>
       </div>
