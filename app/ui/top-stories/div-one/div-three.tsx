@@ -6,7 +6,7 @@ import { News } from "@/app/types/types"
 export default function DivTwo() {
     return (
         <div className="">
-            <Link href={`#`} className="font-bold text-xl my-2 hover:underline">After poisonous PR, ‘Snow White’ has ‘heigh-ho’pes for a fairy tale ending at the box office
+            <Link href={`#`} className="font-bold text-xl my-3 block hover:underline">After poisonous PR, ‘Snow White’ has ‘heigh-ho’pes for a fairy tale ending at the box office
             </Link>
 
             <Link href={`#`}>
@@ -45,7 +45,7 @@ function SubNews(props: { news: News[] }) {
                                     height={0}
                                     sizes="100vh"
                                     alt="My news app developed by Amanuel Ferede"
-                                    className="w-full hover:brightness-75"
+                                    className="w-full hover:brightness-75 rounded-md"
                                 />
 
                             </Link>

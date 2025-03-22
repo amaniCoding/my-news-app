@@ -6,7 +6,7 @@ import { News } from "@/app/types/types"
 export default function DivOne() {
     return (
         <div className="">
-            <Link href={`#`} className="font-bold text-xl my-2 hover:underline">Germany’s Merz wins vote to massively expand borrowing and super-charge military spending
+            <Link href={`#`} className="font-bold text-xl my-3 block hover:underline">Germany’s Merz wins vote to massively expand borrowing and super-charge military spending
             </Link>
 
             <Link href={`#`}>

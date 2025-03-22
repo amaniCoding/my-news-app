@@ -66,7 +66,7 @@ const health_and_wellnewss_news = [
 
     {
         article: 'Gender-affirming hormone therapy is linked to lower depression in transgender adults, study shows',
-        image: '/news/cat/health/sub3.png'
+        image: '/news/cat/health/sub3.jpg'
     },
     {
         article: "Medical myths are surfacing again. 5 tips to inoculate yourself against them",

@@ -4,6 +4,7 @@ import Footer from "./ui/footer";
 import HomePage from "./ui/home-page";
 import InCaseMiss from "./ui/incase-miss";
 import NavBar from "./ui/navbar";
+import TopStories from "./ui/top-stories";
 import TopStories1 from "./ui/top-stories/div-one/home";
 import TopStories2 from "./ui/top-stories/div-two/home";
 export default function Home() {
@@ -11,8 +12,7 @@ export default function Home() {
     <main>
       <NavBar/>
       <HomePage/>
-      <TopStories1/>
-      <TopStories2/>
+      <TopStories/>
       <FeaturedSections/>
       <InCaseMiss/>
       <Footer/>

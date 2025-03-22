@@ -8,7 +8,7 @@ export default function Sport() {
             <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3">sport</h2>
             <Link href={`#`}>
                 <Image
-                    src={`/news/cat/sport/sub1.jpg`}
+                    src={`/news/cat/sport/sub3.jpg`}
                     width={0}
                     height={0}
                     sizes="100vh"

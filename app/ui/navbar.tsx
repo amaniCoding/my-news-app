@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link"
+import { BiSolidWebcam } from "react-icons/bi"
 import { FaBars } from "react-icons/fa"
 import { FaRegCirclePlay } from "react-icons/fa6"
 import { IoSearch } from "react-icons/io5"
@@ -14,12 +15,12 @@ export default function NavBar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3 md:hidden">
             <FaBars className="w-5 h-5" color="white" />
-            <span className="text-white">MyNews Company</span>
+            <span className="text-white flex items-center space-x-3">MyNews <BiSolidWebcam  color="red" size={35} /></span>
 
           </div>
           <div className="items-center space-x-3 md:flex hidden">
             <FaBars className="w-5 h-5" color="white" />
-            <Link href={`/`} className="text-white hover:bg-red-700 hover:text-white p-2">MyNews Company</Link>
+            <Link href={`/`} className="flex text-white items-center space-x-3 p-2">MyNews <BiSolidWebcam  color="red" size={35} /></Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">World</Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">Politics</Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">Business</Link>
@@ -60,7 +61,7 @@ export default function NavBar() {
             </div>
             <div className="flex items-center space-x-3">
               <Link href={`/#`}>
-                <button className="border-[1.5px] border-gray-200 rounded-lg py-1 px-2 text-white">Sign In</button>
+                <button className="border-2 border-gray-200 rounded-lg py-1 px-2 text-white">Sign In</button>
               </Link>
             </div>
           </div>

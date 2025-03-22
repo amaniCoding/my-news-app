@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function GlobalTravel() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3">spae and sceince</h2>
+            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3">global travel</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/travel/sub1.jpg`}

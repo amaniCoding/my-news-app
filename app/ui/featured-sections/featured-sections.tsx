@@ -14,8 +14,8 @@ export function FeaturedSections() {
   return (
     <section>
       <div className="max-w-[1290px] mx-auto md:p-0 p-4 my-10">
-        <h2 className="text-3xl font-bold my-3">Featured Sections</h2>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+      <h2 className="text-center"><span className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3 text-center">featured sections</span></h2>
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
           <SpaceAndScience/>
           <GlobalTravel/>
           <GlobalBusiness/>

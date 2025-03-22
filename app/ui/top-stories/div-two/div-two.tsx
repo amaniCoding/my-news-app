@@ -32,7 +32,7 @@ function SubNews(props: { news: News[] }) {
             return (
                 <div className="my-2" key={i}>
                     <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-3">
+                        <div className="col-span-4">
 
                             <Link href={`#`}>
                                 <Image
@@ -46,7 +46,7 @@ function SubNews(props: { news: News[] }) {
                             </Link>
 
                         </div>
-                        <div className="col-span-9">
+                        <div className="col-span-8">
                             <Link href={`#`} className="hover:underline">{news.article}</Link>
                         </div>
                     </div>

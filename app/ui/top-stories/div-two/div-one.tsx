@@ -16,7 +16,7 @@ export default function DivOne() {
                 />
             </Link>
 
-            <Link href={`#`} className="font-bold text-xl my-2 hover:underline">The world has just experienced its hottest decade
+            <Link href={`#`} className="font-bold text-xl my-3 block hover:underline">The world has just experienced its hottest decade
             </Link>
 
 
