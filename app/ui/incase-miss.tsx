@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function InCaseMiss() {
   return (
     <section>
-      <div className="max-w-[1290px] mx-auto md:p-0 p-4">
+      <div className="max-w-[1290px] mx-auto md:p-0">
         <div className="bg-black">
           <p className="font-bold text-2xl text-white p-3">Incase You Miss It</p>
           <div className="md:grid hidden grid-cols-12 gap-6">
@@ -24,22 +24,22 @@ export default function InCaseMiss() {
             </div>
             <div className="md:col-span-6 col-span-12">
               <div>
-                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 </Link>
-                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 </Link>
-                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 </Link>
-                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 </Link>
-                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 </Link>
-                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
                 </Link>
 
@@ -63,7 +63,7 @@ export default function InCaseMiss() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-justify text-white">
+                    <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </Link>
                   </div>
