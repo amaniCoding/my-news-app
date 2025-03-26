@@ -14,8 +14,8 @@ export default function DivOne() {
                     height={0}
                     sizes="100vh"
                     alt="My news app developed by Amanuel Ferede"
-                    className="w-full"
-                />
+                    className="w-full lg:rounded-md hover:brightness-75"
+                    />
             </Link>
 
 
