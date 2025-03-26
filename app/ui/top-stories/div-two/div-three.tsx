@@ -6,7 +6,7 @@ import { News } from "@/app/types/types"
 export default function DivTwo() {
     return (
         <div className="">
-            <Link href={`#`} className="font-bold text-xl my-3 block hover:underline">After poisonous PR, ‘Snow White’ has ‘heigh-ho’pes for a fairy tale ending at the box office
+            <Link href={`#`} className="lg:px-0 px-3 mb-2 font-bold text-xl block hover:underline">After poisonous PR, ‘Snow White’ has ‘heigh-ho’pes for a fairy tale ending at the box office
             </Link>
 
             <Link href={`#`} className="group">
@@ -16,7 +16,7 @@ export default function DivTwo() {
                 height={0}
                 sizes="100vh"
                 alt="My news app developed by Amanuel Ferede"
-                className="w-full group-hover:brightness-75 rounded-md"
+                className="w-full group-hover:brightness-75 lg:rounded-md"
             />
             </Link>
             
@@ -34,7 +34,7 @@ function SubNews(props: { news: News[] }) {
         props.news.map((news, i) => {
             return (
                 <div className="my-2" key={i}>
-                    <div className="grid grid-cols-12 gap-4">
+                    <div className="grid grid-cols-12 gap-3 lg:px-0 px-3">
                         <div className="col-span-6 group">
 
                             <Link href={`#`}>
@@ -44,7 +44,7 @@ function SubNews(props: { news: News[] }) {
                                     height={0}
                                     sizes="100vh"
                                     alt="My news app developed by Amanuel Ferede"
-                                    className="w-full group-hover:brightness-75 rounded-md"
+                                    className="w-full group-hover:brightness-75 lg:rounded-md"
                                 />
 
                             </Link>

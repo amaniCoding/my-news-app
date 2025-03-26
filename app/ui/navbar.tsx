@@ -11,7 +11,7 @@ export default function NavBar() {
 
   return (
     <nav className="bg-black">
-      <div className="max-w-screen-xl p-3 mx-auto">
+      <div className="max-w-screen-xl lg:px-3 px-2 lg:py-3 py-1 mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3 md:hidden">
             <FaBars className="w-5 h-5" color="white" />
@@ -30,7 +30,7 @@ export default function NavBar() {
             <div className="inline-block group">
               <div className="flex items-center">
                 <span className="text-white">More</span>
-                <MdKeyboardArrowDown className="w-7 h-7" color="white" />
+                <MdKeyboardArrowDown className="w-5 h-5" color="white" />
 
               </div>
 

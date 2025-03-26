@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Style() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3">global business</h2>
+            <h2 className="font-bold text-xl my-3 border-l-4 mx-3 border-l-black uppercase pl-3">style</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/style/sub1.jpg`}
@@ -13,13 +13,13 @@ export default function Style() {
                     height={0}
                     sizes="100vh"
                     alt="My news app developed by Amanuel Ferede"
-                    className="w-full rounded-md group-hover:brightness-75"
+                    className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline">Why Nefertiti still inspires, 3,300 years after she reigned</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">Why Nefertiti still inspires, 3,300 years after she reigned</Link>
 
 
-            <div className="md:block hidden">
+            <div className="lg:block hidden">
 
                 {
                     style_news.map((el, i) => {
@@ -30,23 +30,23 @@ export default function Style() {
                 }
             </div>
 
-            <div className="md:hidden block">
+            <div className="lg:hidden block">
 
                 {
                     style_news.map((el, i) => {
                         return (
-                            <div key={i} className="grid grid-cols-12 gap-4 my-3">
-                                <div className="col-span-5">
+                            <div key={i} className="grid grid-cols-12 gap-3 my-3 px-3">
+                                <div className="col-span-6">
                                     <Image
                                         src={`${el.image}`}
                                         width={0}
                                         height={0}
                                         sizes="100vh"
                                         alt="My news app developed by Amanuel Ferede"
-                                        className="w-full rounded-md group-hover:brightness-75"
+                                        className="w-full lg:rounded-md group-hover:brightness-75"
                                     />
                                 </div>
-                                <div className="col-span-7">
+                                <div className="col-span-6">
                                     <p>{el.article}</p>
                                 </div>
                             </div>

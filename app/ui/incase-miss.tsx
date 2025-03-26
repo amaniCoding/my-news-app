@@ -3,9 +3,9 @@ import Image from "next/image"
 import Link from "next/link"
 export default function InCaseMiss() {
   return (
-    <section>
-      <div className="max-w-[1290px] mx-auto md:p-0">
-        <div className="bg-black">
+    <section className="bg-black">
+      <div className="max-w-[1290px] mx-auto">
+        <div>
           <p className="font-bold text-2xl text-white p-3">Incase You Miss It</p>
           <div className="md:grid hidden grid-cols-12 gap-6">
 
@@ -48,14 +48,14 @@ export default function InCaseMiss() {
             </div>
           </div>
 
-          <div className="md:hidden grid grid-cols-2 gap-4">
+          <div className="md:hidden grid grid-cols-2 lg:gap-4 gap-2">
             {
               Array.from(Array(6).keys()).map((_, i) => {
                 return (
-                  <div className="p-1" key={i}>
+                  <div className="" key={i}>
                     <div>
                       <Image
-                        src={`/latest/${i + 1}.jpg`}
+                        src={`/news/cat/tube/${i + 1}.jpg`}
                         width={0}
                         height={0}
                         sizes="100vh"
@@ -63,7 +63,7 @@ export default function InCaseMiss() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block md:w-3/4 w-full px-2 pb-4 text-white">
+                    <Link href={`/`} className="my-3 border-b-[1.7px] border-b-gray-500 hover:underline block lg:w-3/4 w-full px-2 pb-4 text-white">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     </Link>
                   </div>

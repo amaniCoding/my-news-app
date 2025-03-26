@@ -12,11 +12,11 @@ export default function DivOne() {
                     height={0}
                     sizes="100vh"
                     alt="My news app developed by Amanuel Ferede"
-                    className="w-full rounded-md"
+                    className="w-full lg:rounded-md"
                 />
             </Link>
 
-            <Link href={`#`} className="font-bold text-xl my-3 block hover:underline">The world has just experienced its hottest decade
+            <Link href={`#`} className="lg:px-0 px-3 font-bold text-xl my-3 block hover:underline">The world has just experienced its hottest decade
             </Link>
 
 
@@ -31,11 +31,11 @@ function SubNews(props: { news: News[] }) {
     return (
         props.news.map((news, i) => {
             return (
-                <div className="my-2" key={i}>
-                    <div className="grid grid-cols-12 gap-4">
+                <div className="lg:my-4 my-2" key={i}>
+                    <div className="grid grid-cols-12 gap-3 lg:px-0 px-3">
 
                         <div className="col-span-12">
-                            <Link href={`#`} className="hover:underline">{news.article}</Link>
+                            <Link href={`#`} className=" hover:underline">{news.article}</Link>
                         </div>
                     </div>
                 </div>

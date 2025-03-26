@@ -13,10 +13,10 @@ export default function DivTwo() {
                 height={0}
                 sizes="100vh"
                 alt="My news app developed by Amanuel Ferede"
-                className="w-full rounded-md hover:brightness-75"
+                className="w-full lg:rounded-md hover:brightness-75"
             />
 
-            <Link href={`#`} className="font-bold text-xl my-4 block hover:underline">South_agency/E+/Getty Images
+            <Link href={`#`} className="px-3 font-bold text-xl my-4 block hover:underline">South_agency/E+/Getty Images
                 ‘Exercise snacks’ — even a few minutes a day — can boost your health
             </Link>
             <SubNews news={subnews} />
@@ -30,9 +30,9 @@ function SubNews(props: { news: News[] }) {
     return (
         props.news.map((news, i) => {
             return (
-                <div className="my-2" key={i}>
-                    <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-4">
+                <div className="lg:mb-3 mb-2" key={i}>
+                    <div className="grid grid-cols-12 gap-3 px-3">
+                        <div className="col-span-6 lg:col-span-4">
 
                             <Link href={`#`}>
                                 <Image
@@ -41,12 +41,12 @@ function SubNews(props: { news: News[] }) {
                                     height={0}
                                     sizes="100vh"
                                     alt="My news app developed by Amanuel Ferede"
-                                    className="w-full hover:brightness-75 rounded-md"
+                                    className="w-full hover:brightness-75 lg:rounded-md"
                                 />
                             </Link>
 
                         </div>
-                        <div className="col-span-8">
+                        <div className="col-span-6 lg:col-span-8">
                             <Link href={`#`} className="hover:underline">{news.article}</Link>
                         </div>
                     </div>

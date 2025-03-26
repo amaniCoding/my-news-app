@@ -6,7 +6,7 @@ import { News } from "@/app/types/types"
 export default function Latest() {
     return (
         <div className="">
-            <Link href={`#`} className="font-bold text-xl my-2 hover:underline">Her divorce nearly broke her. Then this grandmother began traveling the world solo
+            <Link href={`#`} className="font-bold block px-3 text-xl my-2 hover:underline">Her divorce nearly broke her. Then this grandmother began traveling the world solo
             </Link>
             <Link href={`#`}>
                 <Image
@@ -15,7 +15,7 @@ export default function Latest() {
                     height={0}
                     sizes="100vh"
                     alt="My news app developed by Amanuel Ferede"
-                    className="w-full hover:brightness-75 rounded-md"
+                    className="w-full hover:brightness-75 lg:rounded-md"
                 />
             </Link>
 
@@ -32,10 +32,10 @@ function SubNews(props: { news: News[] }) {
     return (
         props.news.map((news, i) => {
             return (
-                <div key={i} className="my-4 pb-3 border-b-[1.9px] border-b-slate-300">
+                <div key={i} className="my-4 pb-3 border-b-[1.9px] border-b-slate-300 px-3">
 
-                    <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-5 group">
+                    <div className="grid grid-cols-12 gap-3">
+                        <div className="col-span-6 group">
                             <Link href={`#`}>
                                 <Image
                                     src={`/news${news.image}`}
@@ -43,12 +43,12 @@ function SubNews(props: { news: News[] }) {
                                     height={0}
                                     sizes="100vh"
                                     alt="My news app developed by Amanuel Ferede"
-                                    className="w-full group-hover:brightness-75 rounded-md"
+                                    className="w-full group-hover:brightness-75 lg:rounded-md"
                                 />
                             </Link>
 
                         </div>
-                        <div className="col-span-7">
+                        <div className="col-span-6">
                             <Link href={`#`} className="hover:underline">{news.article}</Link>
                         </div>
                     </div>

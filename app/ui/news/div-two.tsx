@@ -19,9 +19,9 @@ function SubNews(props: { news: News[] }) {
         props.news.map((news, i) => {
             return (
                 <div className="my-2" key={i}>
-                    <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-12">
-                            <Link href={`#`} className="hover:underline font-bold">{news.article}</Link>
+                    <div className="grid grid-cols-12 lg:gap-4 gap-3">
+                        <div className="col-span-12 lg:px-0 px-3">
+                            <Link href={`#`} className=" block hover:underline font-bold">{news.article}</Link>
                         </div>
                         <div className="col-span-12 group">
                             <Link href={`#`}>
@@ -31,7 +31,7 @@ function SubNews(props: { news: News[] }) {
                                     height={0}
                                     sizes="100vh"
                                     alt="My news app developed by Amanuel Ferede"
-                                    className="w-full group-hover:brightness-75 rounded-md"
+                                    className="w-full group-hover:brightness-75 lg:rounded-md"
                                 />
                             </Link>
 

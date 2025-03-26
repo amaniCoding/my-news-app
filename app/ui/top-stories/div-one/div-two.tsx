@@ -18,7 +18,7 @@ export default function DivTwo() {
             </Link>
 
 
-            <Link href={`#`} className="font-bold text-xl my-4 block hover:underline">Unexpected nature of an extended stay in orbit led to high interest in NASA astronauts’ mission
+            <Link href={`#`} className="font-bold text-xl px-3 my-4 block hover:underline">Unexpected nature of an extended stay in orbit led to high interest in NASA astronauts’ mission
             </Link>
             <SubNews news={subnews} />
 
@@ -31,9 +31,9 @@ function SubNews(props: { news: News[] }) {
     return (
         props.news.map((news, i) => {
             return (
-                <div className="my-2" key={i}>
-                    <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-4">
+                <div className="lg:mb-3 mb-2" key={i}>
+                    <div className="grid grid-cols-12 gap-3 px-3">
+                        <div className="col-span-6 lg:col-span-4">
                             <Link href={`#`}>
                                 <Image
                                     src={`/news${news.image}`}
@@ -46,8 +46,8 @@ function SubNews(props: { news: News[] }) {
                             </Link>
 
                         </div>
-                        <div className="col-span-8">
-                            <Link href={`#`} className="hover:underline">{news.article}</Link>
+                        <div className="col-span-6 lg:col-span-8">
+                            <Link href={`#`} className="hover:underline px-3">{news.article}</Link>
                         </div>
                     </div>
                 </div>

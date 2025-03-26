@@ -6,7 +6,7 @@ import { News } from "@/app/types/types"
 export default function DivOne() {
     return (
         <div className="">
-            <h2 className="my-1 font-bold text-3xl">Putin just called Trump’s bluff on Ukraine</h2>
+            <h2 className="my-1 font-bold text-3xl px-3">Putin just called Trump’s bluff on Ukraine</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/1.jpg`}
@@ -19,7 +19,7 @@ export default function DivOne() {
             </Link>
 
 
-            <Link href={`#`} className="font-bold text-xl my-4 block hover:underline">
+            <Link href={`#`} className="font-bold lg:px-0 px-3 text-xl my-4 block hover:underline">
                 The administration’s first real foray into wartime diplomacy with the Kremlin highlighted the Russian art of the ‘no’ deal
             </Link>
 
@@ -35,8 +35,8 @@ function SubNews(props: { news: News[] }) {
         props.news.map((news, i) => {
             return (
                 <div className="my-4 pb-3 border-b-[1.9px] border-b-slate-300" key={i}>
-                    <div className="grid grid-cols-12 gap-4">
-                        <div className="col-span-4 group">
+                    <div className="grid grid-cols-12 lg:gap-4 gap-3 px-3">
+                        <div className="col-span-6 group">
                             <Link href={`#`}>
                                 <Image
                                     src={`${news.image}`}
@@ -44,12 +44,12 @@ function SubNews(props: { news: News[] }) {
                                     height={0}
                                     sizes="100vh"
                                     alt="My news app developed by Amanuel Ferede"
-                                    className="w-full rounded-md group-hover:brightness-75"
+                                    className="w-full lg:rounded-md group-hover:brightness-75"
                                 />
                             </Link>
 
                         </div>
-                        <div className="col-span-8">
+                        <div className="col-span-6">
                             <Link href={`#`} className="hover:underline">{news.article}</Link>
                         </div>
                     </div>
@@ -73,12 +73,4 @@ const subnews = [
         image: '/news/sub3.jpg',
         article: 'After call with Trump, Putin agrees to pause attacks on Ukraine’s energy and infrastructure targets'
     },
-    {
-        image: '/news/sub4.jpg',
-        article: 'CNN speaks to Russian philosopher referred to as ‘Putin’s brain’ 1:09'
-    },
-    {
-        image: '/news/sub5.jpg',
-        article: 'AUkrainian city was invaded by Russia then liberated eight months later. What life is like there now'
-    }
 ]

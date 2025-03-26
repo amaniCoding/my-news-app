@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Tech() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3">tech</h2>
+            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3 mx-3">tech</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/tech/sub1.jpg`}
@@ -13,12 +13,12 @@ export default function Tech() {
                     height={0}
                     sizes="100vh"
                     alt="My news app developed by Amanuel Ferede"
-                    className="w-full rounded-md group-hover:brightness-75"
+                    className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline">Missing but not forgotten: How Ukrainians are searching for those missing in war using AI and an army of families</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">Missing but not forgotten: How Ukrainians are searching for those missing in war using AI and an army of families</Link>
 
-            <div className="md:block hidden">
+            <div className="lg:block hidden">
 
                 {
                     tech_news.map((el, i) => {
@@ -29,23 +29,23 @@ export default function Tech() {
                 }
             </div>
 
-            <div className="md:hidden block">
+            <div className="lg:hidden block">
 
                 {
                     tech_news.map((el, i) => {
                         return (
-                            <div key={i} className="grid grid-cols-12 gap-4 my-3">
-                                <div className="col-span-5">
+                            <div key={i} className="grid grid-cols-12 gap-3 my-3 px-3">
+                                <div className="col-span-6">
                                     <Image
                                         src={`${el.image}`}
                                         width={0}
                                         height={0}
                                         sizes="100vh"
                                         alt="My news app developed by Amanuel Ferede"
-                                        className="w-full rounded-md group-hover:brightness-75"
+                                        className="w-full lg:rounded-md group-hover:brightness-75"
                                     />
                                 </div>
-                                <div className="col-span-7">
+                                <div className="col-span-6">
                                     <p>{el.article}</p>
                                 </div>
                             </div>
