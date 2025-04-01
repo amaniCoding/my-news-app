@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Style() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 border-l-4 mx-3 border-l-black uppercase pl-3">style</h2>
+            <h2 className="font-bold text-xl my-3 border-l-4 lg:mx-0 mx-3 border-l-black uppercase pl-3">style</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/style/sub1.jpg`}
@@ -16,7 +16,7 @@ export default function Style() {
                     className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">Why Nefertiti still inspires, 3,300 years after she reigned</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">Why Nefertiti still inspires, 3,300 years after she reigned</Link>
 
 
             <div className="lg:block hidden">

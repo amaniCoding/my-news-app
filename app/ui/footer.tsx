@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <section className="p-6 bg-white">
       <div className="max-w-[1290px] mx-auto testimonials">
-        <div className="grid md:grid-cols-4 grid-cols-1 gap-5">
+        <div className="grid lg:grid-cols-4 grid-cols-1 gap-5">
           <div className="">
             <div className="flex flex-col space-y-3">
               <p className="font-bold text-xl text-black">MyNews</p>
@@ -100,7 +100,7 @@ export default function Footer() {
             <p className="text-black">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <div className="flex items-center space-x-0">
               <input type="text" className="p-2 bg-white border-[1px] border-gray-500 rounded-l-md"></input>
-              <button className="rounded-r-md p-2 bg-red-700 text-center text-black border-[1px] border-gray-500">Subscribe</button>
+              <button className="rounded-r-md p-2 bg-red-700 text-center text-white border-[1px] border-gray-500">Subscribe</button>
             </div>
             </div>
           </div>

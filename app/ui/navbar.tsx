@@ -13,12 +13,12 @@ export default function NavBar() {
     <nav className="bg-black">
       <div className="max-w-screen-xl lg:px-3 px-2 lg:py-3 py-1 mx-auto">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3 md:hidden">
+          <div className="flex items-center space-x-3 lg:hidden">
             <FaBars className="w-5 h-5" color="white" />
             <span className="text-white flex items-center space-x-3">MyNews <BiSolidWebcam  color="red" size={35} /></span>
 
           </div>
-          <div className="items-center space-x-3 md:flex hidden">
+          <div className="items-center space-x-3 lg:flex hidden">
             <FaBars className="w-5 h-5" color="white" />
             <Link href={`/`} className="flex text-white items-center space-x-3 p-2">MyNews <BiSolidWebcam  color="red" size={35} /></Link>
             <Link href={`/#`} className="text-white hover:bg-red-700 hover:text-white p-2">World</Link>

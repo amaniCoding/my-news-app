@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function HealthAndWellness() {
     return (
         <div>
-            <h2 className="font-bold text-xl mx-3 my-3 border-l-4 border-l-black uppercase pl-3">health and wellness</h2>
+            <h2 className="font-bold text-xl lg:mx-0 mx-3 my-3 border-l-4 border-l-black uppercase pl-3">health and wellness</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/health/sub1.jpg`}
@@ -16,7 +16,7 @@ export default function HealthAndWellness() {
                     className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">'Exercise snacking' several times a day can boost your health and fitness, according to new study</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">'Exercise snacking' several times a day can boost your health and fitness, according to new study</Link>
 
             <div className="lg:block hidden">
 

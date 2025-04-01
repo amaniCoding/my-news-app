@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Sport() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 mx-3 border-l-4 border-l-black uppercase pl-3">sport</h2>
+            <h2 className="font-bold text-xl my-3 lg:mx-0 mx-3 border-l-4 border-l-black uppercase pl-3">sport</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/sport/sub3.jpg`}
@@ -16,7 +16,7 @@ export default function Sport() {
                     className="w-full md:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">Katherine Legge never set out to be a role model, but now she says she has a point to prove in NASCAR</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">Katherine Legge never set out to be a role model, but now she says she has a point to prove in NASCAR</Link>
 
 
             <div className="lg:block hidden">

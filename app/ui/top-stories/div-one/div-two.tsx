@@ -47,7 +47,7 @@ function SubNews(props: { news: News[] }) {
 
                         </div>
                         <div className="col-span-6 lg:col-span-8">
-                            <Link href={`#`} className="hover:underline px-3">{news.article}</Link>
+                            <Link href={`#`} className="hover:underline lg:px-0 px-3">{news.article}</Link>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function GlobalTravel() {
     return (
         <div>
-            <h2 className="font-bold text-xl mx-3 my-3 border-l-4 border-l-black uppercase pl-3">global travel</h2>
+            <h2 className="font-bold text-xl lg:mx-0 mx-3 my-3 border-l-4 border-l-black uppercase pl-3">global travel</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/travel/sub1.jpg`}
@@ -16,7 +16,7 @@ export default function GlobalTravel() {
                     className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">A librarian ran off with a yacht captain in the summer of 1968. It was the start of an incredible love story</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">A librarian ran off with a yacht captain in the summer of 1968. It was the start of an incredible love story</Link>
 
 
             <div className="lg:block hidden">

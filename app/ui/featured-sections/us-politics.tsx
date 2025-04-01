@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function UsPolitics() {
     return (
         <div>
-            <h2 className="font-bold text-xl mx-3 my-3 border-l-4 border-l-black uppercase pl-3">us politics</h2>
+            <h2 className="font-bold text-xl lg:mx-0 mx-3 my-3 border-l-4 border-l-black uppercase pl-3">us politics</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/politics/sub1.jpg`}
@@ -16,7 +16,7 @@ export default function UsPolitics() {
                     className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">The most chilling part of White House claim of boundless executive power</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">The most chilling part of White House claim of boundless executive power</Link>
 
 
             <div className="lg:block hidden">

@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Tech() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3 mx-3">tech</h2>
+            <h2 className="font-bold text-xl my-3 border-l-4 border-l-black uppercase pl-3 lg:mx-0 mx-3">tech</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/tech/sub1.jpg`}
@@ -16,7 +16,7 @@ export default function Tech() {
                     className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">Missing but not forgotten: How Ukrainians are searching for those missing in war using AI and an army of families</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">Missing but not forgotten: How Ukrainians are searching for those missing in war using AI and an army of families</Link>
 
             <div className="lg:block hidden">
 

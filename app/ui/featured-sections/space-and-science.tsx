@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function SpaceAndScience() {
     return (
         <div>
-            <h2 className="font-bold text-xl my-3 border-l-4 mx-3 border-l-black uppercase pl-3">spae and sceince</h2>
+            <h2 className="font-bold text-xl my-3 border-l-4 lg:mx-0 mx-3 border-l-black uppercase pl-3">spae and sceince</h2>
             <Link href={`#`}>
                 <Image
                     src={`/news/cat/space/sub1.jpg`}
@@ -16,7 +16,7 @@ export default function SpaceAndScience() {
                     className="w-full lg:rounded-md group-hover:brightness-75"
                 />
             </Link>
-            <Link href={`#`} className="font-bold block text-lg hover:underline px-3">A doctor was deployed to an Arctic research station during the Cold War. Decades later, he learned its secret purpose</Link>
+            <Link href={`#`} className="font-bold block text-lg hover:underline lg:px-0 px-3">A doctor was deployed to an Arctic research station during the Cold War. Decades later, he learned its secret purpose</Link>
 
             <div className="lg:block hidden">
 
